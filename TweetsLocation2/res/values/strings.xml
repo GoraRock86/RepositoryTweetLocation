@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TweetsLocation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_string_retweet">Retweet</string>
+    <string name="action_string_addFav">Add to favorite</string>
+     <string-array name="typeMaps">
+        <item>Mapa</item>
+        <item>Satelite</item>
+        <item>Hibrido</item>
+        <item>Relieve</item>
+    </string-array>
+
+</resources>

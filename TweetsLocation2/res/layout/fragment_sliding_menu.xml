@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_item"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnLoginTwitter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="30dip"
+        android:text="Login with Twitter" />
+
+    <TextView
+        android:id="@+id/lblUserName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:padding="10dip" />
+
+    <TextView
+        android:id="@+id/lblUpdate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:text="Update Status"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/txtUpdateStatus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:ems="10"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:visibility="gone" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnUpdateStatus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:text="Tweet"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnLogoutTwitter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="50dip"
+        android:text="Logout from Twitter"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnShowRecentTweets "
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="50dip"
+        android:text="Show Recent Tweets"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imageViewAva"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        android:src="@drawable/ic_launcher" />
+
+</LinearLayout>
